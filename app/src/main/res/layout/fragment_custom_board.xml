@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".CustomBoard">
+
+    <TextView
+        android:id="@+id/widths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_width"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/width_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Height:"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/height_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Number of mines:"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/mines_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+</LinearLayout>
