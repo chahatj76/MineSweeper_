@@ -1,2 +1,2 @@
-MineSweeper App
+#MineSweeper App
 Minesweeper game application build using Kotlin.
